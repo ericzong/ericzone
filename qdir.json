@@ -7,12 +7,10 @@
 	"extract_dir": "Q-Dir",
 	"architecture": {
 		"64bit": {
-			"url": "https://www.softwareok.com/?Download=Q-Dir&goto=../Download/Q-Dir_Portable_x64.zip",
-			"hash": "sha1:6D868A126E4B4E0F6BF2E59C8671AE46CFA9B824"
+			"url": "https://www.softwareok.com/?Download=Q-Dir&goto=../Download/Q-Dir_Portable_x64.zip"
 		},
 		"32bit": {
-			"url": "https://www.softwareok.com/?Download=Q-Dir&goto=../Download/Q-Dir_Portable.zip",
-			"hash": "sha1:2F2D71637F5043C305319F940BB98294081E4757"
+			"url": "https://www.softwareok.com/?Download=Q-Dir&goto=../Download/Q-Dir_Portable.zip"
 		}
 	}
 }
