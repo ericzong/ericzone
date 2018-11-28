@@ -1,0 +1,16 @@
+{
+	"homepage": "http://multicommander.com/",
+	"version": "8.3.0",
+	"license": "Freeware",
+	"extract_dir": "multicommander",
+	"architecture": {
+		"64bit": {
+			"url": "http://multicommander.com/files/updates/MultiCommander_x64_Portable_(8.3.0.2469).zip",
+			"hash": "sha1:C4C01221B172AE2FEEF5CB1590536523A9EBE558"
+		},
+		"32bit": {
+			"url": "http://multicommander.com/files/updates/MultiCommander_win32_Portable_(8.3.0.2469).zip",
+			"hash": "sha1:02142AD0C3FE1AB64F7F8B1B6F5B1AD83607E820"
+		}
+	}
+}
