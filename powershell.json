@@ -14,5 +14,10 @@
 			"url": "https://github.com/PowerShell/PowerShell/releases/download/v6.1.1/PowerShell-6.1.1-win-x86.zip",
 			"hash": "1C7146E3879EAE99476FF75FC560245B6097A39AB0BDA76FAB62CA2525B06B69"
 		}
-	}
+	},
+	"env_add_path": [
+		""
+	],
+	"notes": "exe file is pwsh.exe",
+	"checkver": "github"
 }
