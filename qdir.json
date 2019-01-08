@@ -8,11 +8,11 @@
     "extract_dir": "Q-Dir",
     "architecture": {
         "64bit": {
-            "url": "https://www.softwareok.com/?Download=Q-Dir&goto=../Download/Q-Dir_Portable_x64.zip",
+            "url": "https://www.softwareok.com/Download/Q-Dir_Portable_x64.zip",
             "hash": "26f86371b89e57ae07799221e95bbb088ba2522852dbc36787ea60164d9f7dae"
         },
         "32bit": {
-            "url": "https://www.softwareok.com/?Download=Q-Dir&goto=../Download/Q-Dir_Portable.zip",
+            "url": "https://www.softwareok.com/Download/Q-Dir_Portable.zip",
             "hash": "f72eed72c095dd48c4f6d68fe2f1288d75bdb61a6f2e6d29180dc729582df46d"
         }
     },
@@ -26,10 +26,10 @@
         "note": "Thanks for using autoupdate, please test your updates!",
         "architecture": {
             "64bit": {
-                "url": "https://www.softwareok.com/?Download=Q-Dir&goto=../Download/Q-Dir_Portable_x64.zip"
+                "url": "https://www.softwareok.com/Download/Q-Dir_Portable_x64.zip"
             },
             "32bit": {
-                "url": "https://www.softwareok.com/?Download=Q-Dir&goto=../Download/Q-Dir_Portable.zip"
+                "url": "https://www.softwareok.com/Download/Q-Dir_Portable.zip"
             }
         },
         "hash": {
