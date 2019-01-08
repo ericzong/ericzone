@@ -18,8 +18,7 @@
     },
     "persist": [
         "Favoriten",
-        "Q-Dir.ini",
-        "start.qdr"
+        "Q-Dir.ini"
     ],
     "checkver": "Q-Dir ([^\\ ]+)",
     "autoupdate": {
