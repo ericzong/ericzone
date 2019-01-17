@@ -9,11 +9,13 @@
     "architecture": {
         "64bit": {
             "url": "https://www.softwareok.com/Download/Q-Dir_Portable_x64.zip",
-            "hash": "757624db618fdc8481b1a72cba3f3526a08d00414fa7945025b392a38f9fd32c"
+            "hash": "757624db618fdc8481b1a72cba3f3526a08d00414fa7945025b392a38f9fd32c",
+			"bin": [["Q-Dir_x64.exe", "qdir"]]
         },
         "32bit": {
             "url": "https://www.softwareok.com/Download/Q-Dir_Portable.zip",
-            "hash": "0c6da3befcf6c3fcf30b57aee49215bc889c25b923cf4297001a9af068408841"
+            "hash": "0c6da3befcf6c3fcf30b57aee49215bc889c25b923cf4297001a9af068408841",
+			"bin": [["Q-Dir.exe", "qdir"]]
         }
     },
     "persist": [
