@@ -1,18 +1,40 @@
 {
-	"homepage": "http://multicommander.com/",
-	"version": "8.3.0",
-	"description": "Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. ",
-	"license": {
-		"identifier": "Freeware"
-	},
-	"architecture": {
-		"64bit": {
-			"url": "http://multicommander.com/files/updates/MultiCommander_x64_Portable_(8.3.0.2469).zip",
-			"hash": "sha1:C4C01221B172AE2FEEF5CB1590536523A9EBE558"
-		},
-		"32bit": {
-			"url": "http://multicommander.com/files/updates/MultiCommander_win32_Portable_(8.3.0.2469).zip",
-			"hash": "sha1:02142AD0C3FE1AB64F7F8B1B6F5B1AD83607E820"
-		}
-	}
+    "homepage": "http://multicommander.com/",
+    "version": "8.3.0",
+    "description": "Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. ",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "http://multicommander.com/files/updates/MultiCommander_x64_Portable_(8.3.0.2469).zip",
+            "hash": "sha1:c4c01221b172ae2feef5cb1590536523a9ebe558"
+        },
+        "32bit": {
+            "url": "http://multicommander.com/files/updates/MultiCommander_win32_Portable_(8.3.0.2469).zip",
+            "hash": "sha1:02142ad0c3fe1ab64f7f8b1b6f5b1ad83607e820"
+        }
+    },
+    "checkver": {
+        "url": "http://multicommander.com/downloads",
+        "re": "MultiCommander v(?<version>[\\d.]+) \\(Build (?<build>[\\d]{4})\\)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://multicommander.com/files/updates/MultiCommander_x64_Portable_($version.$matchBuild).zip",
+                "hash": {
+                    "url": "http://multicommander.com/downloads",
+                    "find": "Download Portable version[\\s\\S]+([A-F0-9]{40})"
+                }
+            },
+            "32bit": {
+                "url": "http://multicommander.com/files/updates/MultiCommander_win32_Portable_($version.$matchBuild).zip",
+                "hash": {
+                    "url": "http://multicommander.com/downloads",
+                    "find": "Download Portable version[\\s\\S]+([A-F0-9]{40})[\\s\\S]+(?:[A-F0-9]{40})"
+                }
+            }
+        }
+    }
 }
