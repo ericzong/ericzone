@@ -1,0 +1,17 @@
+{
+	"homepage": "https://github.com/ericzong/psutils",
+	"description": "Cleanup scoop cache(keep the latest version)",
+	"version": "0.2019.02.11",
+	"license": "MIT",
+	"url": "https://raw.githubusercontent.com/ericzong/psutils/master/scoopcc.ps1",
+	"hash": "79e6576f99c7007f32082e69518b5727a865100a51c4937881738da968739e98",
+	"bin": "scoopcc.ps1",
+	"checkver": {
+		"url": "https://github.com/ericzong/psutils",
+		"re": "datetime=\"(\\d+)-(\\d+)-(\\d+)[\\S\\s]*?(?<sha>[0-9a-f]{40})\"",
+		"replace": "0.${1}.${2}.${3}"
+	},
+	"autoupdate": {
+		"url": "https://raw.githubusercontent.com/ericzong/psutils/$matchSha/scoopcc.ps1"
+	}
+}
