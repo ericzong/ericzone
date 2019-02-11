@@ -4,7 +4,7 @@
 	"version": "0.2019.02.11",
 	"license": "MIT",
 	"url": "https://raw.githubusercontent.com/ericzong/psutils/master/scoopcc.ps1",
-	"hash": "79e6576f99c7007f32082e69518b5727a865100a51c4937881738da968739e98",
+	"hash": "d916f94c1aa7c49a17a96008810dcdcfc6e7ef6fd1b75a1fac996d8c5c478cb0",
 	"bin": "scoopcc.ps1",
 	"checkver": {
 		"url": "https://github.com/ericzong/psutils",
