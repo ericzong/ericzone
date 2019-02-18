@@ -7,8 +7,8 @@
 	"hash": "d916f94c1aa7c49a17a96008810dcdcfc6e7ef6fd1b75a1fac996d8c5c478cb0",
 	"bin": "scoopcc.ps1",
 	"checkver": {
-		"url": "https://github.com/ericzong/psutils",
-		"re": "datetime=\"(\\d+)-(\\d+)-(\\d+)[\\S\\s]*?(?<sha>[0-9a-f]{40})\"",
+		"url": "https://github.com/ericzong/psutils/blob/master/scoopcc.ps1",
+		"re": "datetime=\"(\\d+)-(\\d+)-(\\d+)",
 		"replace": "0.${1}.${2}.${3}"
 	},
 	"autoupdate": {
