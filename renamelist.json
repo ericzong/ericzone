@@ -1,0 +1,20 @@
+{
+	"homepage": "https://github.com/ericzong/psutils",
+	"description": "Rename files by list file",
+	"version": "0.2019.02.19",
+	"license": "MIT",
+	"url": "https://raw.githubusercontent.com/ericzong/psutils/master/renamelist.ps1",
+	"hash": "6d9d0dfe5ee6cc13c8ab6d32a1fb3636421a4f0e9afb1e447e03f5159a87ef3d",
+	"bin": [
+		["renamelist.ps1", "rnls"],
+		["renamelist.ps1", "rnlsq", "-quiet"]
+	],
+	"checkver": {
+		"url": "https://github.com/ericzong/psutils/blob/master/renamelist.ps1",
+		"re": "datetime=\"(\\d+)-(\\d+)-(\\d+)",
+		"replace": "0.${1}.${2}.${3}"
+	},
+	"autoupdate": {
+		"url": "https://raw.githubusercontent.com/ericzong/psutils/$matchSha/renamelist.ps1"
+	}
+}
