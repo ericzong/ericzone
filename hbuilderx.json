@@ -8,7 +8,7 @@
 	"url": "http://download.dcloud.net.cn/HBuilderX.1.6.2.20190220.zip",
 	"hash": "SHA1:3FB60DD4580CD3A61D9D9A36E7417AC6E1089FF7",
 	"extract_dir": "HBuilderX",
-	"checkver": "",
+	"checkver": "HBuilderX\\.([\\d.]+)\\.zip",
 	"autoupdate": {
 		"url": "http://download.dcloud.net.cn/HBuilderX.$version.zip"
 	}
