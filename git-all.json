@@ -1,0 +1,22 @@
+{
+	"homepage": "https://github.com/ericzong/psutils",
+	"description": "Git pull/push all project in one dir",
+	"version": "0.2019.02.26",
+	"license": "MIT",
+	"url": "https://raw.githubusercontent.com/ericzong/psutils/master/git-all.ps1",
+	"hash": "SHA1:929B6CE2479B9869B9AC1EB9E22BA487709FA1E9",
+	"bin": [
+		[
+			"git-all.ps1",
+			"git-all"
+		]
+	],
+	"checkver": {
+		"url": "https://github.com/ericzong/psutils/blob/master/git-all.ps1",
+		"re": "datetime=\"(\\d+)-(\\d+)-(\\d+)",
+		"replace": "0.${1}.${2}.${3}"
+	},
+	"autoupdate": {
+		"url": "https://raw.githubusercontent.com/ericzong/psutils/master/git-all.ps1"
+	}
+}
