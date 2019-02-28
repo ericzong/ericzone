@@ -4,7 +4,7 @@
 	"version": "0.2019.02.26",
 	"license": "MIT",
 	"url": "https://raw.githubusercontent.com/ericzong/psutils/master/git-all.ps1",
-	"hash": "SHA1:929B6CE2479B9869B9AC1EB9E22BA487709FA1E9",
+	"hash": "SHA1:dfb27c26d66d3221d81c606d6fcf5aa9ba0e1bc0",
 	"bin": [
 		[
 			"git-all.ps1",
