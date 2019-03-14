@@ -1,0 +1,16 @@
+{
+    "homepage": "http://fincs.ahk4.net/scite4ahk/",
+    "version": "3.0.06.01",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "extract_dir": "",
+    "url": "http://fincs.ahk4.net/scite4ahk/dl/s4ahk-portable.zip",
+    "depends": "",
+    "hash": "e8ac96a58313927ecce1399f972a790853fc05c640c172dab9df0fd2d85e4709",
+    "bin": "",
+    "checkver": "v([\\d.]+)",
+    "autoupdate": {
+        "url": "http://fincs.ahk4.net/scite4ahk/dl/s4ahk-portable.zip"
+    }
+}
