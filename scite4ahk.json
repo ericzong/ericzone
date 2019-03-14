@@ -6,9 +6,16 @@
     },
     "extract_dir": "",
     "url": "http://fincs.ahk4.net/scite4ahk/dl/s4ahk-portable.zip",
-    "depends": "",
+    "depends": "autohotkey",
     "hash": "e8ac96a58313927ecce1399f972a790853fc05c640c172dab9df0fd2d85e4709",
     "bin": "",
+	"persist": [
+		"user"
+	],
+	"post_install": [
+		"$ahk=\"$scoopdir\\apps\\autohotkey\\current\\AutoHotkeyU\" + $architecture.substring(0, 2) + \".exe\"",
+		"cmd /c mklink \"$dir\\AutoHotkey.exe\" \"$ahk\""
+	],
     "checkver": "v([\\d.]+)",
     "autoupdate": {
         "url": "http://fincs.ahk4.net/scite4ahk/dl/s4ahk-portable.zip"
