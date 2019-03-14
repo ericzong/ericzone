@@ -1,22 +1,21 @@
 {
-	"homepage": "https://github.com/ericzong/psutils",
-	"description": "Git pull/push all project in one dir",
-	"version": "0.2019.02.26",
-	"license": "MIT",
-	"url": "https://raw.githubusercontent.com/ericzong/psutils/master/git-all.ps1",
-	"hash": "SHA1:dfb27c26d66d3221d81c606d6fcf5aa9ba0e1bc0",
-	"bin": [
-		[
-			"git-all.ps1",
-			"git-all"
-		]
-	],
-	"checkver": {
-		"url": "https://github.com/ericzong/psutils/blob/master/git-all.ps1",
-		"re": "datetime=\"(\\d+)-(\\d+)-(\\d+)",
-		"replace": "0.${1}.${2}.${3}"
-	},
-	"autoupdate": {
-		"url": "https://raw.githubusercontent.com/ericzong/psutils/master/git-all.ps1"
-	}
+    "homepage": "https://github.com/ericzong/psutils",
+    "description": "Git pull/push all project in one dir",
+    "version": "1.0.0",
+    "license": "MIT",
+    "url": "https://raw.githubusercontent.com/ericzong/psutils/master/git-all.ps1",
+    "hash": "1120f6c5ab1880b2594651b838ae9cf3f4e974a009039328d14aaa5f5153db40",
+    "bin": [
+        [
+            "git-all.ps1",
+            "git-all"
+        ]
+    ],
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/ericzong/psutils/master/git-all.ps1",
+        "re": "#v(?<version>[\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://raw.githubusercontent.com/ericzong/psutils/master/git-all.ps1"
+    }
 }
