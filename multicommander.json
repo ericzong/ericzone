@@ -5,6 +5,10 @@
     "license": {
         "identifier": "Freeware"
     },
+	"persist": [
+		"Config",
+		"UserData"
+	],
     "architecture": {
         "64bit": {
             "url": "http://multicommander.com/files/updates/MultiCommander_x64_Portable_(8.3.0.2469).zip",
