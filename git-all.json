@@ -4,7 +4,7 @@
     "version": "1.0.3",
     "license": "MIT",
     "url": "https://raw.githubusercontent.com/ericzong/psutils/master/git-all.ps1",
-    "hash": "1975e327e81b469fd21461e1074cb5327f1591830d83f781a5db63dd21e2bf05",
+    "hash": "f8e70952eab0cb636ca14c6720f8616c5f1563e8f0f375b40487f24a0b9eab59",
     "bin": [
         [
             "git-all.ps1",
