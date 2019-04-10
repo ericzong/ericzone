@@ -19,8 +19,9 @@
             "/NOCANCEL",
             "/NORESTART",
             "/CLOSEAPPLICATIONS",
+			"/GROUP=typora",
             "/DIR=$dir",
-            "/GROUP=typora"
+            "/LOG=$dir/install.log"
         ]
     },
     "uninstaller": {
