@@ -1,0 +1,51 @@
+{
+    "homepage": "https://typora.io/",
+    "license": "http://support.typora.io/License-Agreement/",
+    "version": "0.9.68",
+    "architecture": {
+        "64bit": {
+            "url": "https://typora.io/windows/typora-setup-x64.exe",
+            "hash": "8b017bf41ae92a1f8bd48fb667004df8bc7355bb122214b67348caea87b3ea99"
+        },
+        "32bit": {
+            "url": "https://typora.io/windows/typora-setup-ia32.exe",
+            "hash": "914876a1d06db38577fdfb4fe9a1f65b95410caaeeffa53f3713290f291bf04d"
+        }
+    },
+    "installer": {
+        "args": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/CLOSEAPPLICATIONS",
+            "/DIR=$dir",
+            "/GROUP=typora"
+        ]
+    },
+    "uninstaller": {
+        "file": "unins000.exe",
+        "args": "/VERYSILENT"
+    },
+    "bin": "Typora.exe",
+    "checkver": {
+        "url": "https://typora.io/windows/dev_release.html",
+        "re": "(\\d+\\.\\d+\\.\\d+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://typora.io/windows/typora-setup-x64.exe"
+            },
+            "32bit": {
+                "url": "https://typora.io/windows/typora-setup-ia32.exe"
+            }
+        }
+    },
+    "shortcuts": [
+        [
+            "Typora.exe",
+            "Typora"
+        ]
+    ]
+}
