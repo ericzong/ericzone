@@ -31,7 +31,7 @@
     "bin": "Typora.exe",
     "checkver": {
         "url": "https://typora.io/windows/dev_release.html",
-        "re": "(\\d+\\.\\d+\\.\\d+)"
+        "regex": "<h4>([\\d\\.]+)"
     },
     "autoupdate": {
         "architecture": {
