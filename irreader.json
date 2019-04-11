@@ -1,0 +1,14 @@
+{
+    "homepage": "http://irreader.fatecore.com/",
+    "version": "1.5.8",
+    "license": "Freeware",
+    "extract_dir": "irreader-1.5.8-green",
+    "url": "http://irreader.fatecore.com/download/irreader-1.5.8-green.zip",
+    "depends": "",
+    "hash": "523039d2a048a3be139df953e40b491cfb52a414698cb79ed2f59d283b17bbf6",
+    "bin": "",
+    "checkver": "irreader v([\\d.]+)",
+    "autoupdate": {
+        "url": "http://irreader.fatecore.com/download/irreader-$version-green.zip"
+    }
+}
