@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/ericzong/psutils",
     "description": "Cleanup scoop cache(keep the latest version)",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "url": "https://raw.githubusercontent.com/ericzong/psutils/master/scoopcc.ps1",
-    "hash": "704343407cbc86558c6fee4b107922825b1c2d7355d55e0cf3a300d84bbd7b4b",
+    "hash": "fdadb67086dd281d2356a6235ba02b2612537bf0f390ad2872adaf9a6ca1516f",
     "bin": "scoopcc.ps1",
     "checkver": {
         "url": "https://raw.githubusercontent.com/ericzong/psutils/master/scoopcc.ps1",
