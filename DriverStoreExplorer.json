@@ -1,13 +1,13 @@
 {
-    "version": "0.10.15",
+    "version": "0.10.28",
     "license": {
         "identifier": "Freeware"
     },
     "extract_dir": "",
-    "url": "https://github.com/lostindark/DriverStoreExplorer/releases/download/v0.10.15/DriverStoreExplorer.v0.10.15.zip",
+    "url": "https://github.com/lostindark/DriverStoreExplorer/releases/download/v0.10.28/DriverStoreExplorer.v0.10.28.zip",
     "depends": "",
     "homepage": "https://github.com/lostindark/DriverStoreExplorer",
-    "hash": "2ac700849623d9f81bbeef6c0cd1693b90646f874465b06f6bcbc678a2680afe",
+    "hash": "f265d9ba835a30cd118b62f3e8c3edc0fe4ede21a077e3d62c12ee40e2713b61",
     "bin": "",
     "checkver": "github",
     "autoupdate": {
