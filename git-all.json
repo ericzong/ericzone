@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/ericzong/psutils",
     "description": "Git pull/push all project in one dir",
-    "version": "1.2.9",
+    "version": "1.2.10",
     "license": "MIT",
     "url": "https://raw.githubusercontent.com/ericzong/psutils/master/git-all.ps1",
-    "hash": "1abc735704b255f67fe54433a762cf819ce026ee6141e4df4efc2f1e6f50aa15",
+    "hash": "a6d9f52bc0c0deb100bf7e1c3ea73d338cfbf110026f9330a8d092fcd4989c56",
     "bin": [
         [
             "git-all.ps1",
