@@ -1,13 +1,13 @@
 {
-    "version": "0.10.39",
+    "version": "0.10.43",
     "license": {
         "identifier": "Freeware"
     },
     "extract_dir": "",
-    "url": "https://github.com/lostindark/DriverStoreExplorer/releases/download/v0.10.39/DriverStoreExplorer.v0.10.39.zip",
+    "url": "https://github.com/lostindark/DriverStoreExplorer/releases/download/v0.10.43/DriverStoreExplorer.v0.10.43.zip",
     "depends": "",
     "homepage": "https://github.com/lostindark/DriverStoreExplorer",
-    "hash": "aba483db83708ddc1a2f5dcaba048fc2da5b8b3dc9fa4d98cecf37ed482d850f",
+    "hash": "3d2b9b1b741bfb1830849c2377b1cc63d5ce927aef414b5cd439330556256af9",
     "bin": "",
     "checkver": "github",
     "autoupdate": {
