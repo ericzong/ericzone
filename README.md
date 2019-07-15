@@ -1,8 +1,14 @@
 # ericzone
 
-My bucket for Scoop
+My bucket for [Scoop](https://scoop.sh/)
 
-# manual update list
+# download to compute hashes
+
+* DriverStoreExplorer
+
+* stretchly
+
+# manual update
 
 * hbuilderx
 
