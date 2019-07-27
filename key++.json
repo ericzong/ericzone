@@ -1,0 +1,23 @@
+{
+    "homepage": "https://github.com/ericzong/Key-plus-plus",
+    "version": "0.4.0",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "url": "https://github.com/ericzong/Key-plus-plus/releases/download/0.4.0/Key++.zip",
+    "depends": "autohotkey",
+    "hash": "4bfd450c03514220f014bfb1d12de5d074b965813f202f666a1a46485aa63b0f",
+    "extract_dir": "",
+    "persist": [
+        "config",
+        "autorun"
+    ],
+    "post_install": [
+        
+    ],
+    "notes": "Key++ autorun is the best.",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/ericzong/Key-plus-plus/releases/download/$version/Key++.zip"
+    }
+}
