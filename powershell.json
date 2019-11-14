@@ -30,7 +30,7 @@
         },
         "hash": {
             "url": "https://github.com/PowerShell/PowerShell/releases/latest",
-            "find": "(?:$basename)[\\s\\S]{1,64}([a-fA-F0-9]{64})"
+            "find": "(?:$basename)(?:[\\s\\S]*?)([a-fA-F0-9]{64})"
         }
     }
 }
