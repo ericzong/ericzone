@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/ericzong/Key-plus-plus",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "license": {
         "identifier": "Freeware"
     },
-    "url": "https://github.com/ericzong/Key-plus-plus/releases/download/0.4.0/Key++.zip",
+    "url": "https://github.com/ericzong/Key-plus-plus/releases/download/0.5.0/Key++.zip",
     "depends": "autohotkey",
-    "hash": "4bfd450c03514220f014bfb1d12de5d074b965813f202f666a1a46485aa63b0f",
+    "hash": "006088a336ee1aa6a8cf8ca1666114ddbabae86fee91a35f86b26a96f1cef9d0",
     "extract_dir": "",
     "persist": [
         "config",
