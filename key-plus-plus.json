@@ -1,12 +1,19 @@
 {
     "homepage": "https://github.com/ericzong/Key-plus-plus",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "license": {
         "identifier": "Freeware"
     },
-    "url": "https://github.com/ericzong/Key-plus-plus/releases/download/0.5.0/Key++.zip",
-    "depends": "autohotkey",
-    "hash": "006088a336ee1aa6a8cf8ca1666114ddbabae86fee91a35f86b26a96f1cef9d0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ericzong/Key-plus-plus/releases/download/0.5.1/Key++_x64.zip",
+            "hash": "2d6b8889908752ae48cdf83942aff04a2fd602283e5a4a11a1fb02de27c88795"
+        },
+        "32bit": {
+            "url": "https://github.com/ericzong/Key-plus-plus/releases/download/0.5.1/Key++_win32.zip",
+            "hash": "c0371fb0fb7c5991c9a4255bc7645bdbafde485cab84e07b56f7692521e5c18c"
+        }
+    },
     "extract_dir": "",
     "persist": [
         "config",
@@ -18,6 +25,21 @@
     "notes": "Key++ autorun is the best.",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/ericzong/Key-plus-plus/releases/download/$version/Key++.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ericzong/Key-plus-plus/releases/download/$version/Key++_x64.zip",
+                "hash": {
+                    "url": "https://github.com/ericzong/Key-plus-plus/releases/latest",
+                    "find": "Key\\+\\+_x64\\.zip(?:[\\s\\S]*?)([a-fA-F0-9]{64})"
+                }
+            },
+            "32bit": {
+                "url": "https://github.com/ericzong/Key-plus-plus/releases/download/$version/Key++_win32.zip",
+                "hash": {
+                    "url": "https://github.com/ericzong/Key-plus-plus/releases/latest",
+                    "find": "Key\\+\\+_win32\\.zip(?:[\\s\\S]*?)([a-fA-F0-9]{64})"
+                }
+            }
+        }
     }
 }
