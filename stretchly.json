@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/hovancik/stretchly",
-    "version": "0.21.0",
+    "version": "0.21.1",
     "depends": "",
     "license": {
         "identifier": "Freeware"
@@ -9,12 +9,12 @@
     "bin": "",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hovancik/stretchly/releases/download/v0.21.0/stretchly-0.21.0-win.zip",
-            "hash": "862d88436252e8964215d1ddba3ef678e58920d14d55d12d406474f576ab8aeb"
+            "url": "https://github.com/hovancik/stretchly/releases/download/v0.21.1/stretchly-0.21.1-win.zip",
+            "hash": "afc09659f5fc4f5a9ad93855c3bf6ee038ef0b851460f3223048086e1763f270"
         },
         "32bit": {
-            "url": "https://github.com/hovancik/stretchly/releases/download/v0.21.0/stretchly-0.21.0-ia32-win.zip",
-            "hash": "32614e5a6e45a17e975a5ef25c7fb212e3d7a7f830bda3b6caab32129e3d6a86"
+            "url": "https://github.com/hovancik/stretchly/releases/download/v0.21.1/stretchly-0.21.1-ia32-win.zip",
+            "hash": "b47073fb503b3ff4002f6a7dcd8de47a2b19bd7579ef17287c96aac1ca5467bd"
         }
     },
     "checkver": "github",
