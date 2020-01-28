@@ -1,6 +1,6 @@
 {
     "homepage": "http://multicommander.com/",
-    "version": "9.6.0.2580",
+    "version": "9.6.1.2582",
     "description": "Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. ",
     "license": {
         "identifier": "Freeware"
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "http://multicommander.com/files/updates/MultiCommander_x64_Portable_(9.6.0.2580).zip",
-            "hash": "sha1:da188830946f3a2fba5a4a79bf19e81fe8944233"
+            "url": "http://multicommander.com/files/updates/MultiCommander_x64_Portable_(9.6.1.2582).zip",
+            "hash": "sha1:4eb69c93ad6117e499770d33933ffa3e04b37202"
         },
         "32bit": {
-            "url": "http://multicommander.com/files/updates/MultiCommander_win32_Portable_(9.6.0.2580).zip",
-            "hash": "sha1:2b09d56b0ff3dcec089815d2dca9c894a861255e"
+            "url": "http://multicommander.com/files/updates/MultiCommander_win32_Portable_(9.6.1.2582).zip",
+            "hash": "sha1:972ce6b203e5b605af2b49ff1a3201853a867a13"
         }
     },
     "checkver": {
