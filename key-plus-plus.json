@@ -1,17 +1,17 @@
 {
     "homepage": "https://github.com/ericzong/Key-plus-plus",
-    "version": "0.5.1",
+    "version": "0.5.2",
     "license": {
         "identifier": "Freeware"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ericzong/Key-plus-plus/releases/download/0.5.1/Key++_x64.zip",
-            "hash": "2d6b8889908752ae48cdf83942aff04a2fd602283e5a4a11a1fb02de27c88795"
+            "url": "https://github.com/ericzong/Key-plus-plus/releases/download/0.5.2/Key++_x64.zip",
+            "hash": "cfa7d1d8029dcb652f0980645cda13bb1f11d93ed6e7e055533b165a20182805"
         },
         "32bit": {
-            "url": "https://github.com/ericzong/Key-plus-plus/releases/download/0.5.1/Key++_win32.zip",
-            "hash": "c0371fb0fb7c5991c9a4255bc7645bdbafde485cab84e07b56f7692521e5c18c"
+            "url": "https://github.com/ericzong/Key-plus-plus/releases/download/0.5.2/Key++_win32.zip",
+            "hash": "7f9bab25142c5cb8d0b2b795a8c77cba53d2470550a1614b3e04d73c44b7a869"
         }
     },
     "extract_dir": "",
