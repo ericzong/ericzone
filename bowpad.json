@@ -1,6 +1,6 @@
 {
     "homepage": "http://tools.stefankueng.com/BowPad.html",
-    "version": "2.4.5",
+    "version": "2.5.0",
     "description": "A simple and fast text editor with a ribbon UI",
     "license": {
         "identifier": "Freeware"
@@ -9,12 +9,12 @@
     "depends": "",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stefankueng/BowPad/releases/download/2.4.5/BowPad64-2.4.5-portable.zip",
-            "hash": "73ad52730111507785c753d49f40b895771cb1116e6ff3ddb8b167df7e9fffbe"
+            "url": "https://github.com/stefankueng/BowPad/releases/download/2.5.0/BowPad64-2.5.0-portable.zip",
+            "hash": "567dec653c6c9bc1452cf7ce9bdfa019ba9159f278a7b8d8fe2b2908ecd6b43d"
         },
         "32bit": {
-            "url": "https://github.com/stefankueng/BowPad/releases/download/2.4.5/BowPad-2.4.5-portable.zip",
-            "hash": "fd0f8123a5b26fd10c2946f7286834014ba1606d1129b1178330f86ab9b7bcac"
+            "url": "https://github.com/stefankueng/BowPad/releases/download/2.5.0/BowPad-2.5.0-portable.zip",
+            "hash": "5181d8eb112be39824eb33736a1c3a99d9f41e99cf000da36a24d3d70835f589"
         }
     },
     "checkver": {
