@@ -3,7 +3,7 @@
     "description": "Git pull/push all project in one dir",
     "version": "1.5.0",
     "license": "MIT",
-    "url": "https://raw.githubusercontent.com/ericzong/psutils/master/git-all.ps1",
+    "url": "https://gitee.com/ericzonglu/ps-tools/raw/master/git-all.ps1",
     "hash": "1238c35aab054d9f999afb6ee8284f029ec7041d1f2455ff818bc5799876851a",
     "bin": [
         [
@@ -12,10 +12,10 @@
         ]
     ],
     "checkver": {
-        "url": "https://raw.githubusercontent.com/ericzong/psutils/master/git-all.ps1",
+        "url": "https://gitee.com/ericzonglu/ps-tools/raw/master/git-all.ps1",
         "re": "#v(?<version>[\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://raw.githubusercontent.com/ericzong/psutils/master/git-all.ps1"
+        "url": "https://gitee.com/ericzonglu/ps-tools/raw/master/git-all.ps1"
     }
 }
