@@ -1,0 +1,19 @@
+{
+    "homepage": "https://shuax.com/project/mouseinc/",
+    "url": "https://dl.shuax.com/MouseInc2.10.21.7z",
+    "version": "2.10.21",
+    "license": "Freeware",
+    "extract_dir": "MouseInc",
+    "checkver": "MouseInc ([\\d.]+)",
+    "autoupdate": {
+        "url": "https://dl.shuax.com/MouseInc$version.7z"
+    },
+    "depends": "",
+    "hash": "fdb6dc659dc583fc3c7de911910defdae80b2c593180b6039f36d348ef345bb5",
+    "bin": [
+        [
+            "MouseInc.exe",
+            "mouseinc"
+		]
+	]
+}
