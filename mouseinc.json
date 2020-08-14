@@ -8,6 +8,10 @@
     "autoupdate": {
         "url": "https://dl.shuax.com/MouseInc$version.7z"
     },
+	"pre_install": "ni \"$dir\\MouseInc.json\"",
+	"persist": [
+        "MouseInc.json"
+    ],
     "depends": "",
     "hash": "fdb6dc659dc583fc3c7de911910defdae80b2c593180b6039f36d348ef345bb5",
     "bin": [
