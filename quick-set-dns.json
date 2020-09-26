@@ -1,0 +1,21 @@
+{
+    "homepage": "https://www.nirsoft.net/utils/quick_set_dns.html",
+    "version": "1.30",
+    "description": "A tool that changes the DNS servers. By NirSoft.",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "extract_dir": "",
+    "url": "https://www.nirsoft.net/utils/quicksetdns.zip",
+    "depends": "",
+    "hash": "ffdff1b6fa71bed0c1a798427e28f536e8c06b41dd11afdea7e98a7de3816e44",
+    "bin": "",
+    "persist": "QuickSetDNS.cfg",
+    "notes": "Please download language file from https://www.nirsoft.net/utils/quick_set_dns.html.",
+    "checkver": {
+        "re": "QuickSetDNS v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.nirsoft.net/utils/quicksetdns.zip"
+    }
+}
