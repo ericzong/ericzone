@@ -2,9 +2,7 @@
     "homepage": "https://explorerplusplus.com/",
     "version": "1.3.5",
     "description": "Explorer++ is a lightweight and fast file manager for Windows.",
-    "license": {
-        "identifier": "Freeware"
-    },
+    "license": "GNU General Public License v3.0 only",
     "extract_dir": "",
     "depends": "",
     "bin": [
