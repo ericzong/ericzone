@@ -5,7 +5,7 @@
     "license": {
         "identifier": "Freeware"
     },
-    "extract_dir": "CCEnhancer-multilingual-$version",
+    "extract_dir": "CCEnhancer-multilingual-4.5.7",
     "url": "https://singularlabs.com/download/10320/CCEnhancer-multilingual-4.5.7.zip",
     "hash": "2a737d7997caf3f1ee67dc5d92a8ccd9f25df12439b23415c95e3d090e2412db",
     "checkver": {
@@ -13,9 +13,10 @@
         "re": "CCEnhancer ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://singularlabs.com/download/10320/CCEnhancer-multilingual-$version.zip"
+        "url": "https://singularlabs.com/download/10320/CCEnhancer-multilingual-$version.zip",
+        "extract_dir": "CCEnhancer-multilingual-$version"
     },
-	"pre_install": [
+    "pre_install": [
         "$ini = \"$dir\\cc_config.ini\"",
         "if (!(Test-Path \"$ini\")) {",
         "   touch \"$ini\"",
