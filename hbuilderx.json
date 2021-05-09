@@ -1,15 +1,11 @@
 {
 	"homepage": "http://www.dcloud.io/hbuilderx.html",
-	"version": "1.9.4.20190426",
+	"version": "3.1.12.20210428",
 	"description": "",
 	"license": {
 		"identifier": "Freeware"
 	},
-	"url": "https://download.dcloud.net.cn/HBuilderX.1.9.4.20190426.zip",
-	"hash": "SHA1:446AE1E374B9B59CD40C82892A395C67AD1F050B",
-	"extract_dir": "HBuilderX",
-	"#checkver": "HBuilderX\\.([\\d.]+)\\.zip",
-	"autoupdate": {
-		"url": "http://download.dcloud.net.cn/HBuilderX.$version.zip"
-	}
+	"url": "https://download1.dcloud.net.cn/download/HBuilderX.3.1.12.20210428.zip",
+	"hash": "19414dd69d55f336718d7e8fe41995324eb5659ad9ba807557e603f3bcbb4fc1",
+	"extract_dir": "HBuilderX"
 }
