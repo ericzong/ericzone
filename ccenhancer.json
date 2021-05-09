@@ -19,7 +19,7 @@
     "pre_install": [
         "$ini = \"$dir\\cc_config.ini\"",
         "if (!(Test-Path \"$ini\")) {",
-        "   touch \"$ini\"",
+        "   new-item \"$ini\" -type File",
         "}"
     ],
     "persist": "cc_config.ini"
