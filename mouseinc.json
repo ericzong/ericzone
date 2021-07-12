@@ -1,7 +1,7 @@
 {
     "homepage": "https://shuax.com/project/mouseinc/",
-    "url": "https://update.shuax.com/MouseInc2.11.1.7z",
-    "version": "2.11.1",
+    "url": "https://update.shuax.com/MouseInc2.11.2.7z",
+    "version": "2.11.2",
     "license": "Freeware",
     "extract_dir": "MouseInc",
     "checkver": "MouseInc ([\\d.]+)",
@@ -11,7 +11,7 @@
     "pre_install": "ni \"$dir\\MouseInc.json\"",
     "persist": "MouseInc.json",
     "depends": "",
-    "hash": "8afae2da071037b30f6924ea7fffd42c0ec96d655ef58580703cb8c578d24a5f",
+    "hash": "a3d0f8cfd070b3c87ed95b2ac0a1f7c724768b55083dfff286e5fa8297d0e05a",
     "bin": [
         [
             "MouseInc.exe",
