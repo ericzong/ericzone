@@ -20,6 +20,7 @@
         "config.ini",
         "hotkeys.ini"
     ],
+	"notes": "Please run \"scoop uninstall ppink -p\" if error when startup, then re-install.",
     "checkver": {
         "url": "https://github.com/pubpub-zz/ppInk/releases/latest",
         "re": "/pubpub-zz/ppInk/releases/tag/v(.*?)\""
