@@ -1,15 +1,15 @@
 {
     "homepage": "https://typora.io/",
     "license": "http://support.typora.io/License-Agreement/",
-    "version": "0.11.13",
+    "version": "0.11.17",
     "architecture": {
         "64bit": {
             "url": "https://typora.io/windows/typora-setup-x64.exe",
-            "hash": "a22e3363f8a0608d6864146d0a2adddc132553150a14147e86c805d08f273300"
+            "hash": "f1eedc9cc89f8751d4bb77f603f5dabc26364d58116c211fe65ce002dc40be60"
         },
         "32bit": {
             "url": "https://typora.io/windows/typora-setup-ia32.exe",
-            "hash": "43a7d7f1ca204b53aede3011b193c6a9be07af1dbbac0164bf2fe54e1882d164"
+            "hash": "1a529845996534b87d43a9c3727d151ccfdd2558fe835bd79569e61408bec3b9"
         }
     },
     "installer": {
