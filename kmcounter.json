@@ -3,7 +3,6 @@
     "url": "https://github.com/telppa/KMCounter/releases/download/v3.7/KMCounter.v3.7.zip",
     "version": "3.7",
     "license": "Freeware",
-    "extract_dir": "KMCounter",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/telppa/KMCounter/releases/download/v$version/KMCounter.v$version.zip"
