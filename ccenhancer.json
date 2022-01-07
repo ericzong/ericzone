@@ -10,7 +10,7 @@
     "hash": "2a737d7997caf3f1ee67dc5d92a8ccd9f25df12439b23415c95e3d090e2412db",
     "checkver": {
         "url": "https://singularlabs.com/software/ccenhancer/download-ccenhancer",
-        "re": "CCEnhancer ([\\d.]+)"
+        "re": "CCEnhancer Portable[\\s\\S]*?([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://singularlabs.com/download/10320/CCEnhancer-multilingual-$version.zip",
