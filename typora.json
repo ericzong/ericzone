@@ -29,24 +29,14 @@
         "args": "/VERYSILENT"
     },
     "bin": "Typora.exe",
-    "checkver": {
-        "url": "https://typora.io/windows/dev_release.html",
-        "regex": "<h4>([\\d\\.]+)"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://typora.io/windows/typora-setup-x64.exe"
-            },
-            "32bit": {
-                "url": "https://typora.io/windows/typora-setup-ia32.exe"
-            }
-        }
-    },
     "shortcuts": [
         [
             "Typora.exe",
             "Typora"
         ]
-    ]
+    ],
+	"notes": [
+		"This is the last beta release for free. ",
+		"A license code needed after version 1. "
+	]
 }
