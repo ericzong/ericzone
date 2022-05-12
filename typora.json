@@ -1,6 +1,10 @@
 {
     "homepage": "https://typora.io/",
-    "license": "http://support.typora.io/License-Agreement/",
+	"description": "A truly minimal markdown editor",
+    "license": {
+		"identifier": "Freeware",
+		"url": "http://support.typora.io/License-Agreement/",
+	},
     "version": "0.11.18",
     "architecture": {
         "64bit": {
@@ -37,6 +41,6 @@
     ],
 	"notes": [
 		"This is the last beta release for free. ",
-		"A license code needed after version 1. "
+		"A license code needed after version 1.0 "
 	]
 }
