@@ -1,10 +1,9 @@
 {
     "homepage": "https://shuax.com",
-    "url": "https://dl.shuax.com/MouseInc2.12.1.7z",
     "version": "2.12.1",
     "license": "Freeware",
     "extract_dir": "MouseInc",
-    "checkver": "MouseInc([\\d.]+)\\.7z",
+    "checkver": "MouseInc ([\\d.]+)",
     "autoupdate": {
         "url": "https://dl.shuax.com/MouseInc$version.7z"
     },
