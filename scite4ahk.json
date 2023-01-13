@@ -1,21 +1,21 @@
 {
-    "homepage": "http://fincs.ahk4.net/scite4ahk/",
+    "homepage": "https://github.com/fincs/SciTE4AutoHotkey",
     "version": "3.1.0",
     "license": {
         "identifier": "Freeware"
     },
     "extract_dir": "",
-    "url": "https://www.autohotkey.com/scite4ahk/dl/s4ahk-portable.zip",
+    "url": "https://github.com/fincs/SciTE4AutoHotkey/releases/download/v3.1.0/SciTE4AHK_v3.1.0_Install.exe",
     "depends": "autohotkey",
-    "hash": "5803831c9dbcb08976922acb2a3688161770363bf50532a2f38d626b9d9b4410",
+    "hash": "2007fa367458e592032a677d293ff25b0b737bb424e5509c57c3d9b89987fe9b",
     "bin": "",
     "persist": "user",
     "post_install": [
         "$ahk=\"$scoopdir\\apps\\autohotkey\\current\\AutoHotkeyU\" + $architecture.substring(0, 2) + \".exe\"",
         "cmd /c mklink \"$dir\\AutoHotkey.exe\" \"$ahk\""
     ],
-    "checkver": "v([\\d.]+)",
+    "checkver": "github",
     "autoupdate": {
-        "url": "https://www.autohotkey.com/scite4ahk/dl/s4ahk-portable.zip"
+        "url": "https://github.com/fincs/SciTE4AutoHotkey/releases/download/v$version/SciTE4AHK_v$version_Install.exe"
     }
 }
