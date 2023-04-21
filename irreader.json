@@ -1,10 +1,10 @@
 {
     "homepage": "http://irreader.fatecore.com/",
-    "version": "1.6.7",
+    "version": "1.6.9",
     "license": "Freeware",
-    "url": "http://irreader.fatecore.com/download/irreader-1.6.7.zip",
+    "url": "http://irreader.fatecore.com/download/irreader-1.6.9.zip",
     "depends": "",
-    "hash": "bcc3871c72a1b576049fd0637f8e7b4003bc056c77a743fc9a70448e396b0d25",
+    "hash": "b009159e505037d742fe735c31d45fa3b25783b9deed37e3d8ce52037692ba74",
     "bin": "",
     "checkver": "v([\\d.]+) 20",
     "autoupdate": {
