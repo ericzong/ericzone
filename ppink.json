@@ -1,14 +1,14 @@
 {
     "homepage": "https://github.com/pubpub-zz/ppInk",
-    "version": "1.8.3",
+    "version": "1.9.0RC1",
     "description": "ppInk is an on-screen annotation software under Windows, forked from gInk.",
     "license": {
         "identifier": "Freeware"
     },
     "extract_dir": "ppInk",
-    "url": "https://github.com/pubpub-zz/ppInk/releases/download/v1.8.3/ppInk.zip",
+    "url": "https://github.com/pubpub-zz/ppInk/releases/download/v1.9.0RC1/ppInk.zip",
     "depends": "",
-    "hash": "039beeb98c6867be5200b2f3eb1acd8cd1ca461296830e482dd2944ad8e3c7c5",
+    "hash": "6e99f4dbf7e3c1e2d2e0cb99a66bf944056e2fbc336d3ff990aa21edbaf7a945",
     "bin": [
         [
             "ppInk.exe",
