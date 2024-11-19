@@ -8,9 +8,3 @@ My bucket for [Scoop](https://scoop.sh/)
 
 * stretchly
 
-# manual update
-
-* hbuilderx
-
-  There is no version number in initial page before triggering js.
-
