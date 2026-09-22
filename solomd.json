@@ -1,12 +1,12 @@
 {
-    "version": "4.13.0",
+    "version": "4.14.0",
     "description": "A lightweight Markdown and plain text editor built with Tauri 2.",
     "homepage": "https://solomd.app",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zhitongblog/solomd/releases/download/v4.13.0/SoloMD_4.13.0_x64-portable.zip",
-            "hash": "670ae2344d028cf00389914ba76ea7c3f8a6f16571e222c64fe5c2437c2963cb"
+            "url": "https://github.com/zhitongblog/solomd/releases/download/v4.14.0/SoloMD_4.14.0_x64-portable.zip",
+            "hash": "9d63b345b754ff9f445923cf14f0d3ed61f751411a889afd0c634552bfc88981"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse -ErrorAction Ignore",
